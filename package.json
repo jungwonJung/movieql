@@ -1,6 +1,27 @@
 {
-  "name": "GraphMovie",
+  "name": "graphmovie",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": "git+https://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@github.com/jungwonJung/movieql.git",
+  "author": "JUNGganzi <wjdwjd1501@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jungwonJung/movieql/issues"
+  },
+  "homepage": "https://github.com/jungwonJung/movieql#readme",
+  "description": "",
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }
