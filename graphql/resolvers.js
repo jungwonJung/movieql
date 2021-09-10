@@ -1,7 +1,14 @@
 const resolver = {
     Query : {
-        name : () => "jungwon"
+        person : () => jungwon
     }
 }
+
+const jungwon = {
+    name : "jungwon",
+    age : 29,
+    genfer : "male"
+}
+
 
 export default resolver
