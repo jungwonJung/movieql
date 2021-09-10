@@ -1,14 +1,13 @@
+import { getById, people } from "./db"
+
 const resolver = {
     Query : {
-        person : () => jungwon
+        people : () => people,
+        person : (_, { id}) => getById(id)
     }
 }
 
-const jungwon = {
-    name : "jungwon",
-    age : 29,
-    genfer : "male"
-}
+
 
 
 export default resolver
